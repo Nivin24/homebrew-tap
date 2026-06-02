@@ -1,6 +1,6 @@
 cask "cyro" do
   version "1.0.0"
-  sha256 "2593dd1e10035152ae4de3fe514be9a02d2ad642fe86b61b1c49e2555e008069"
+  sha256 "5033d0b15ff3169b901c5828f7b4b602a09d5bf2727d3b579e4c7bf970c8faeb"
 
   url "https://github.com/Nivin24/cyro-releases/releases/download/v#{version}/Cyro.dmg"
   name "Cyro"
