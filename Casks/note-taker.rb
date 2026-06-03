@@ -9,6 +9,13 @@ cask "note-taker" do
 
   app "NoteTaker.app"
 
+  # Automatically remove Apple quarantine flag upon install
+  postflight do
+    system_command "sh",
+                   args: ["-c", "xattr -r -d com.apple.quarantine '#{appdir}/NoteTaker.app' 2>/dev/null || true"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/com.user.NoteTaker",
     "~/Library/Preferences/com.user.NoteTaker.plist",
