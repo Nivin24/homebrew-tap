@@ -1,6 +1,6 @@
 cask "note-taker" do
   version "1.1.0"
-  sha256 "fc96379d5071b19bf1f8246466e9a25443ca12f8488c863aea6e6d77ef9231c7"
+  sha256 "b96185a67b208a8e2f51a0a3e8baf54ca7373452c713d7f80e3304269ccc816a"
 
   url "https://github.com/Nivin24/Note-Taker-Landing/releases/download/v#{version}/NoteTaker.dmg"
   name "NoteTaker"
